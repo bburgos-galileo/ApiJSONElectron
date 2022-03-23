@@ -8,7 +8,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: 900,
         height: 600,
-        title: 'Mantenimiento de Usuarios',
+        title: 'Consulta de gatos JSON',
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
